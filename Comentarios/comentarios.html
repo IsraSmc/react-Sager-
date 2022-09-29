@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comentarios</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="https://fonts.google.com/">
+    <meta name="keywords" content="comentarios, opiniones">
+    <meta name="description" content="Seccion de comentarios para los usuarios">
+</head>
+<body class="body">
+    
+    <header class="headerTitle">
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">SAGER</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="hom" aria-current="page" href="../Articulos/hombre.html">HOMBRE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../Articulos/mujer.html">MUJER</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../Encuentranos/informacion.html">DONDE ENCOTRARNOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../Comentarios/comentarios.html">COMENTARIOS</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    
+
+    <form action="" method="get" enctype="text/plain" class="formComen">
+        <fieldset>
+            <legend>Datos y comentarios</legend>
+            <div>
+                <label for="userName" class="form-label"> Nombre </label>
+                <input type="text" class="form-control"id="userName" placeholder="Nombre" required>
+            </div>
+            <div>
+                <label for="userMail" class="form-label">Mail</label>
+                <input type="email" class="form-control" id="userMail" placeholder="Dirección de correo electrónico" required>
+            </div>
+            <div>
+                <label for="textCometarios" class="form-label">Comentarios</label>
+                <textarea class="form-control" id="textCometarios" rows="3"></textarea>
+            </div>
+            <button class="buttonEnviar">ENVIAR</button>
+        </fieldset>
+    </form>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>    
+</body>
+<footer class="footer"> 
+    <h5>Sager</h5   >
+    <nav class="navegacion">
+        <div class="contenedor">
+            <a class="navbar-brand" href="https://www.instagram.com/ind.sager/" style="position: right;">
+                <img src="../multimedia/ig logo.jpg" alt="" width="30" height="30" class="redes">
+            </a>
+        </div>
+        <div class="contenedor">
+            <a class="navbar-brand" href="https://api.whatsapp.com/send?phone=5491130478156" style="position: right;">
+                <img src="../multimedia/wp logo.png" alt="" width="30" height="30" class="redes">
+            </a>
+        </div>
+    </nav>
+</footer>
+</html>
+<!--<nav>
+    <ul>
+        <li><a href="../index.html">INICIO</a></li>
+
+    </ul>
+</nav>-->
